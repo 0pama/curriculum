@@ -1,7 +1,7 @@
 ### Introduction
 
 How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it even possible in React because of its declarative nature? How about performance optimization? As we all know, when a state has been changed, React will try to re-render the component, which means that it will destroy all local variables not controlled by React and re-execute them. This mental model also works for a regular function that you create, as a component is just a function. Since this is the case, wouldn't it slow down the app if we have a very expensive calculation re-executed with each re-render?
-
+wd
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
